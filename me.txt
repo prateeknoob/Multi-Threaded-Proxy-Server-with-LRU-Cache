@@ -1,8 +1,6 @@
-wsl
-sudo apt update
-sudo apt install build-essential
-cd "/mnt/e/Multithreaded proxy server"
 make clean
 make
-./proxy 8080
-http://localhost:8081/http://www.cs.princeton.edu/
+python3 makeDir.py
+./encrypt_decrypt
+test
+encrypt/decrypt
